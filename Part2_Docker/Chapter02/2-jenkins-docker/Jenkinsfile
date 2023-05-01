@@ -36,7 +36,7 @@ pipeline {
                 }
             }
         }
-        #stage('Deploy to AWS EC2 VM'){
+        stage('Deploy svr to VM'){
         #    steps{
         #        sshagent(credentials : ["deploy-key"]) {
         #            sh "ssh -o StrictHostKeyChecking=no ubuntu@${deployHost} \
